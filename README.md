@@ -3,4 +3,4 @@
 
 There are some test file under `inputs` folder.
 
-* `Simulate.run!(path_to_file)`
+`Simulate.run!(path_to_file)`
