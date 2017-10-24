@@ -1,0 +1,17 @@
+DEFINE ManualReview BackgroundCheck DocumentSigning
+STATS
+CREATE user_one@example.com
+CREATE dan@fountain.com
+CREATE paul@fountain.com
+CREATE paul@fountain.com
+CREATE bligzna.lauris@gmail.com
+CREATE user_two@example.com
+ADVANCE user_one@example.com DocumentSigning
+ADVANCE paul@fountain.com
+ADVANCE dan@fountain.com
+ADVANCE dan@fountain.com BackgroundCheck
+ADVANCE bligzna.lauris@gmail.com DocumentSigning
+DECIDE bligzna.lauris@gmail.com 1
+DECIDE user_two@example.com 0
+DECIDE dan@fountain.com
+STATS
